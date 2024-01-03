@@ -1,3 +1,2 @@
 # Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print('p2')
+print('p2 1.0.0')

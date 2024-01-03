@@ -2,3 +2,10 @@
 name = "p2"
 description = "let's check"
 version = "1.0.0"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["p*"]  # package names should match these glob patterns (["*"] by default)
